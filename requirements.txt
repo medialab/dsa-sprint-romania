@@ -1,0 +1,5 @@
+altair
+easyocr
+minet
+pandas
+tqdm
