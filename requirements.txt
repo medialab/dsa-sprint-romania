@@ -1,5 +1,5 @@
 altair==5.4.1
 easyocr==1.7.2
-minet==4.1.0
+minet==4.1.2
 pandas==1.5.2
 tqdm==4.67.1
