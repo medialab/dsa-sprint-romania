@@ -4,7 +4,7 @@
 This project was developed as part of the February 2025 DSA Ad Datasprint organized at Sciences Po.
 It explores the use of TikTok [`promotional contents`](https://library.tiktok.com/other-commercial-content) during the Romanian presidential campaign of 2024.
 
-The notebook `Romanian_Campain_TikTok_Ads.ipynb` contains the code to reproduce our analysis, including:
+The notebook [Romanian_Campain_TikTok_Ads.ipynb](Romanian_Campain_TikTok_Ads.ipynb) contains the code to reproduce our analysis, including:
 - Collecting of all promotional contents from [library.tiktok.com/other-commercial-content](https://library.tiktok.com/other-commercial-content) targeting Romania the month before the election
 - Downloading the cover images of all videos
 - Running Optical Character Recognition (OCR) on the images
@@ -21,9 +21,10 @@ To reproduce the analysis, start by cloning the repository and installing the Py
 git clone https://github.com/medialab/dsa-sprint-romania.git
 cd dsa-sprint-romania
 pip install -r requirements.txt
+jupyter lab
 ```
 
-The file `romania-20241106-20241206-ocr.csv` contains both:
+The file [romania-20241106-20241206-ocr.csv](romania-20241106-20241206-ocr.csv) contains both:
 - The data collected from the TikTok Ad Library
 - The results of Optical Character Recognition (OCR) applied to the ad cover pictures.
 
